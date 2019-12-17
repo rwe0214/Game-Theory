@@ -13,7 +13,7 @@ item.txt
 - The numbers of items is recorded on the first line.
 - The numbers of instance of each item is recorded on the second line.
 
-```.txt
+```txt
 5
 3	2	2	2	2
 ```
@@ -25,7 +25,7 @@ player.txt
 - The bid of each player is on the third line.
 - The demand of each item of each player is the follow up.
 
-```.txt
+```txt
 5
 P1	P2	P3	P4	P5
 63	54	93	70	28
