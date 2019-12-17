@@ -8,7 +8,7 @@ It is a program that computes the set of winners and their payments for multiuni
 
 ## Input File
 
-instance.txt
+item.txt
 
 - The numbers of items is recorded on the first line.
 - The numbers of instance of each item is recorded on the second line.

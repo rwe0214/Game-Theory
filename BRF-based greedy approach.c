@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define INSTANCEFILE "instance.txt"
+#define ITEMFILE "item.txt"
 #define PLAYERFILE "player.txt"
 
 typedef int Instance;
@@ -77,8 +77,8 @@ Instance* read_instances()
     FILE *fp;
     int *q;
 
-    if( (fp = fopen(INSTANCEFILE, "r")) == NULL ) {
-        fprintf(stderr, "Error opening file '%s'\n", INSTANCEFILE);
+    if( (fp = fopen(ITEMFILE, "r")) == NULL ) {
+        fprintf(stderr, "Error opening file '%s'\n", ITEMFILE);
         exit(0);
     }
 
