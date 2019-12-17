@@ -39,14 +39,22 @@ P1	P2	P3	P4	P5
 ## Execute Result
 
 ```shell
+$ make
+gcc -o BRF-based\ greedy\ approach BRF-based\ greedy\ approach.c; ./BRF-based\ greedy\ approach
 Player Ranking:
 P4  <	P3  <	P1  <	P5  <	P2
 
 Winner Set:
 {P2, P4, P5}
 
+
 Allocated Result:
-P1	P2	P3	P4	P5
- 	win	 	win	win
+
+		| P1	| P2	| P3	| P4	| P5
+--------|-------|-------|-------|-------|-------
+result	|	 	| win	| 		| win	| win
+--------|-------|-------|-------|-------|-------
+payment	| 		| 0.00	| 		| 69.75	| 0.00
+
 ```
 
