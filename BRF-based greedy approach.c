@@ -173,7 +173,7 @@ float find_payment(int i, Bidder *rank_p, Bidder *p, Instance *q)
 {
     int *total_unit = malloc(item_num * sizeof(int));
     memset(total_unit, 0, item_num * sizeof(int));
-    //printf("asd");
+
     int flag = 0;
     for(int j=0; j<i; j++)
         if(rank_p[j].win)
